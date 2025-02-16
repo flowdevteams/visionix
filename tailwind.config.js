@@ -13,9 +13,9 @@ module.exports = {
   // Specify the paths to all template files where Tailwind CSS classes will be used.
   // This ensures unused CSS is purged during production builds for optimal performance.
   content: [
-    "./assets/**/*.{html,js}", // Include all HTML and JS files in the assets folder
-    "./index.html",            // Main index file
-    "./themes/**/*.{html,js}", // All HTML and JS files in the themes folder
+    "./build/**/*.{html,js}", // Include all HTML and JS files in the assets folder
+   
+    "./build/themes/**/*.{html,js}", // All HTML and JS files in the themes folder
     "./node_modules/flowbite/**/*.js", // Include Flowbite components
   ],
 
