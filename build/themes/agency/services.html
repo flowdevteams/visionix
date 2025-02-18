@@ -4,21 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--tailwind css-->
-    <link href="/build/css/output.css" rel="stylesheet">
+    <link href="../../css/output.css" rel="stylesheet">
     <!--main custom css-->
-    <link href="/build/css/main.css" rel="stylesheet">
+    <link href="../../css/main.css" rel="stylesheet">
    
     <!--remix icon css-->
-    <link href="/build/icons/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link href="../../icons/remixicon/fonts/remixicon.css" rel="stylesheet">
     <!--flowbite css-->
-    <link href="/node_modules/flowbite/dist/flowbite.min.css" rel="stylesheet">
+    <link href="../../flowbite/dist/flowbite.min.css" rel="stylesheet">
     <!--aos css-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!--keen slider -->
-    <link href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css" rel="stylesheet" />
-    <!--alpine js-->
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
+    <link href="../../aos/dist/aos.css" rel="stylesheet">
+  
 
 </head>
 
@@ -54,203 +50,203 @@
     <main id="content">
          <!--header-->
          <header
-         class="bg-light dark:bg-dark w-full transition-colors ease-in-out delay-75 duration-300 shadow-large shadow-primary dark:shadow-secondary p-2 fixed top-0 z-50  bg-opacity-70 backdrop-blur">
-         <div class="mx-auto  px-6 lg:px-8">
-             <div class="flex h-16 items-center justify-between max-w-screen-xl mx-auto">
-                 <div class="relative">
-                     <a href="/build/index.html"
-                         class=" text-dark dark:text-light md:text-4xl text-2xl font-semibold radio-canada-regular">Visio<span
-                             class="text-primary dark:text-secondary">Nix</span></a>
-                 </div>
-                 <div class="md:flex md:items-center md:gap-12 mx-auto">
-                     <nav aria-label="Global" class="hidden xl:block ms-20">
-                         <ul class="flex items-center gap-8 text-sm">
-                             <!-- Home -->
-                             <li class="relative group">
-                                 <a class="text-dark dark:text-light transition hover:text-primary dark:hover:text-secondary text-lg font-medium dropdown-button after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary dark:after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 "
-                                     href="home.html">Home</a>
-                             </li>
-                             <!-- About-->
-                             <li class="relative group">
-                                 <a class="text-dark dark:text-light transition hover:text-primary dark:hover:text-secondary text-lg font-medium dropdown-button after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary dark:after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300"
-                                     href="about.html">About</a>
-                             </li>
-                             <!-- Services-->
-                             <li class="relative group">
-                                 <a class="text-dark dark:text-light transition hover:text-primary dark:hover:text-secondary text-lg font-medium dropdown-button after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary dark:after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300"
-                                     href="services.html">Services</a>
-                             </li>
-                             <!-- Portfolio-->
-                             <li class="relative group">
-                                 <a class="text-dark dark:text-light transition hover:text-primary dark:hover:text-secondary text-lg font-medium dropdown-button after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary dark:after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300"
-                                     href="portfolio.html">Portfolio</a>
-                             </li>
-                             <!-- Blog-->
-                             <li class="relative group">
-                                 <a class="text-dark dark:text-light transition hover:text-primary dark:hover:text-secondary text-lg font-medium dropdown-button after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary dark:after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300"
-                                     href="blog.html">Blog</a>
-                             </li>
-                             <!-- Contact-->
-                             <li class="relative group">
-                                 <a class="text-dark dark:text-light transition hover:text-primary dark:hover:text-secondary text-lg font-medium dropdown-button after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary dark:after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300"
-                                     href="contact.html">Contact</a>
-                             </li>
- 
-                         </ul>
-                     </nav>
-                 </div>
-                 <!--download and docs button-->
-                 <div class="hidden xl:block">
-                     <div class="sm:gap-4 flex">
-                         <a class="rounded-3xl bg-primary dark:bg-secondary md:px-8 py-2.5 px-4 text-md font-medium text-light dark:text-dark flex items-center gap-1 transition ease-in-out delay-150 hover:shadow-small hover:shadow-primary dark:shadow-secondary hover:text-light dark:hover:text-dark hover:bg-primary-hover dark:hover:bg-secondary-hover duration-300"
-                             href="#">
-                             Download
-                             <i class="ri-arrow-down-line"></i>
-                         </a>
-                         <a class="rounded-3xl bg-primary dark:bg-secondary md:px-8 py-2.5 px-4 text-md font-medium text-light dark:text-dark flex items-center gap-1 transition ease-in-out delay-150 hover:shadow-small hover:shadow-primary dark:shadow-secondary hover:text-light dark:hover:text-dark hover:bg-primary-hover dark:hover:bg-secondary-hover duration-300"
-                             href="/build/docs/documentation.html">
-                             Docs
-                             <i class="ri-article-fill"></i>
-                         </a>
-                     </div>
-                 </div>
-                 <!-- Button to toggle between dark and light mode -->
-                 <div class="flex items-center gap-4 ms-4">
-                     <div class="flex sm:gap-4">
-                         <button onclick="toggleDarkMode()" class="p-2 text-primary dark:text-secondary">
-                             <i id="dark-mode-icon" class="ri-sun-line text-2xl"></i>
-                         </button>
-                     </div>
-                 </div>
-                 <!-- Mobile Menu Toggle Button -->
- 
-                 <div class="block xl:hidden">
-                     <button id="menu-button"
-                         class="rounded  p-2 text-dark dark:text-light transition hover:text-primary dark:hover:text-secondary"
-                         type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation"
-                         aria-controls="drawer-navigation">
-                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                             stroke="currentColor" stroke-width="2">
-                             <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                         </svg>
-                     </button>
-                 </div>
- 
-                 <!--Mobile Menu -->
-                 <div>
-                     <!-- drawer  -->
-                     <div id="drawer-navigation"
-                         class="fixed top-0 left-0 z-40 h-screen  p-4 overflow-y-auto transition-transform -translate-x-full bg-light w-64 dark:bg-dark"
-                         tabindex="-1" aria-labelledby="drawer-navigation-label">
-                         <h5 id="drawer-navigation-label"
-                             class="text-base font-semibold text-primary uppercase dark:text-secondary">
-                             MENU
-                         </h5>
-                         <!-- Close Button for Mobile Menu -->
-                         <button type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation"
-                             class="text-dark bg-transparent hover:bg-light hover:text-dark rounded-lg text-sm w-8 h-8 absolute top-2.5 end-2.5 inline-flex items-center justify-center dark:hover:bg-dark dark:hover:text-light">
-                             <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                 viewBox="0 0 14 14">
-                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                     stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
-                             </svg>
-                             <span class="sr-only">Close
-                                 menu</span>
-                         </button>
-                         <div class="py-4 overflow-y-auto">
-                             <ul class="space-y-2 font-medium">
- 
- 
-                                 <!--home-->
-                                 <li>
-                                     <a class="flex items-center w-full p-2 text-base text-dark hover:text-light transition duration-75 rounded-lg group hover:bg-primary dark:text-light dark:hover:text-dark dark:hover:bg-secondary"
-                                         href="home.html">
-                                         <i
-                                             class="ri-home-2-fill text-primary dark:text-secondary group-hover:text-light dark:group-hover:text-dark"></i><span
-                                             class="ms-3">Home</span>
-                                     </a>
-                                 </li>
-                                 <!--about-->
-                                 <li>
-                                     <a class="flex items-center w-full p-2 text-base text-dark hover:text-light transition duration-75 rounded-lg group hover:bg-primary dark:text-light dark:hover:text-dark dark:hover:bg-secondary"
-                                         href="about.html">
-                                         <i
-                                             class="ri-account-pin-box-line text-primary dark:text-secondary group-hover:text-light dark:group-hover:text-dark"></i><span
-                                             class="ms-3">About</span>
-                                     </a>
-                                 </li>
-                                 <!--services-->
-                                 <li>
-                                     <a class="flex items-center w-full p-2 text-base text-dark hover:text-light transition duration-75 rounded-lg group hover:bg-primary dark:text-light dark:hover:text-dark dark:hover:bg-secondary"
-                                         href="services.html">
-                                         <i
-                                             class="ri-customer-service-2-fill text-primary dark:text-secondary group-hover:text-light dark:group-hover:text-dark"></i><span
-                                             class="ms-3">Services</span>
-                                     </a>
-                                 </li>
-                                 <!--portfolio-->
-                                 <li>
-                                     <a class="flex items-center w-full p-2 text-base text-dark hover:text-light transition duration-75 rounded-lg group hover:bg-primary dark:text-light dark:hover:text-dark dark:hover:bg-secondary"
-                                         href="portfolio.html">
-                                         <i
-                                             class="ri-map-pin-user-fill text-primary dark:text-secondary group-hover:text-light dark:group-hover:text-dark"></i><span
-                                             class="ms-3">Portfolio</span>
-                                     </a>
-                                 </li>
-                                 <!--blog-->
-                                 <li>
-                                     <a class="flex items-center w-full p-2 text-base text-dark hover:text-light transition duration-75 rounded-lg group hover:bg-primary dark:text-light dark:hover:text-dark dark:hover:bg-secondary"
-                                         href="blog.html">
-                                         <i
-                                             class="ri-news-fill text-primary dark:text-secondary group-hover:text-light dark:group-hover:text-dark"></i><span
-                                             class="ms-3">Blog</span>
-                                     </a>
-                                 </li>
-                                 <!--contact-->
-                                 <li>
-                                     <a class="flex items-center w-full p-2 text-base text-dark hover:text-light transition duration-75 rounded-lg group hover:bg-primary dark:text-light dark:hover:text-dark dark:hover:bg-secondary"
-                                         href="contact.html">
-                                         <i
-                                             class="ri-phone-fill text-primary dark:text-secondary group-hover:text-light dark:group-hover:text-dark"></i><span
-                                             class="ms-3">Contact</span>
-                                     </a>
-                                 </li>
- 
-                                 <hr class="mb-6">
-                                 <!--donwload and docs link-->
-                                 <li class="flex items-center gap-4  p-2">
-                                     <div class="block xl:hidden ">
- 
-                                         <p class=" mb-6">
-                                             <a href="#"
-                                                 class="inline-flex items-center font-medium text-primary dark:text-secondary  hover:underline">
-                                                 Download
-                                                 <i
-                                                     class="ri-arrow-down-line text-primary dark:text-secondary ms-3"></i>
-                                             </a>
-                                         </p>
-                                         <p class="mb-6">
-                                             <a href="/build/docs/documentation.html"
-                                                 class="inline-flex items-center font-medium text-primary dark:text-secondary hover:underline">
-                                                 Docs
-                                                 <i
-                                                     class="ri-article-fill text-primary dark:text-secondary ms-3"></i>
-                                             </a>
-                                         </p>
- 
-                                     </div>
-                                 </li>
-                             </ul>
-                         </div>
-                     </div>
-                     <!--end drawer-->
-                 </div>
-                 <!--end mobile menu-->
-             </div>
-         </div>
-         <!--scroll progress bar-->
-         <div id="scroll-progress" class="bg-primary dark:bg-secondary h-1 top-0 fixed left-0 z-50"></div>
-     </header>
+        class="bg-light dark:bg-dark w-full transition-colors ease-in-out delay-75 duration-300 shadow-large shadow-primary dark:shadow-secondary p-2 fixed top-0 z-50  bg-opacity-70 backdrop-blur">
+        <div class="mx-auto  px-6 lg:px-8">
+            <div class="flex h-16 items-center justify-between max-w-screen-xl mx-auto">
+                <div class="relative">
+                    <a href="../../index.html"
+                        class=" text-dark dark:text-light md:text-4xl text-2xl font-semibold radio-canada-regular">Visio<span
+                            class="text-primary dark:text-secondary">Nix</span></a>
+                </div>
+                <div class="md:flex md:items-center md:gap-12 mx-auto">
+                    <nav aria-label="Global" class="hidden xl:block ms-20">
+                        <ul class="flex items-center gap-8 text-sm">
+                            <!-- Home -->
+                            <li class="relative group">
+                                <a class="text-dark dark:text-light transition hover:text-primary dark:hover:text-secondary text-lg font-medium dropdown-button after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary dark:after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 "
+                                    href="home.html">Home</a>
+                            </li>
+                            <!-- About-->
+                            <li class="relative group">
+                                <a class="text-dark dark:text-light transition hover:text-primary dark:hover:text-secondary text-lg font-medium dropdown-button after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary dark:after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300"
+                                    href="about.html">About</a>
+                            </li>
+                            <!-- Services-->
+                            <li class="relative group">
+                                <a class="text-dark dark:text-light transition hover:text-primary dark:hover:text-secondary text-lg font-medium dropdown-button after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary dark:after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300"
+                                    href="services.html">Services</a>
+                            </li>
+                            <!-- Portfolio-->
+                            <li class="relative group">
+                                <a class="text-dark dark:text-light transition hover:text-primary dark:hover:text-secondary text-lg font-medium dropdown-button after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary dark:after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300"
+                                    href="portfolio.html">Portfolio</a>
+                            </li>
+                            <!-- Blog-->
+                            <li class="relative group">
+                                <a class="text-dark dark:text-light transition hover:text-primary dark:hover:text-secondary text-lg font-medium dropdown-button after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary dark:after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300"
+                                    href="blog.html">Blog</a>
+                            </li>
+                            <!-- Contact-->
+                            <li class="relative group">
+                                <a class="text-dark dark:text-light transition hover:text-primary dark:hover:text-secondary text-lg font-medium dropdown-button after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary dark:after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300"
+                                    href="contact.html">Contact</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+                <!--download and docs button-->
+                <div class="hidden xl:block">
+                    <div class="sm:gap-4 flex">
+                        <a class="rounded-3xl bg-primary dark:bg-secondary md:px-8 py-2.5 px-4 text-md font-medium text-light dark:text-dark flex items-center gap-1 transition ease-in-out delay-150 hover:shadow-small hover:shadow-primary dark:shadow-secondary hover:text-light dark:hover:text-dark hover:bg-primary-hover dark:hover:bg-secondary-hover duration-300"
+                            href="#">
+                            Download
+                            <i class="ri-arrow-down-line"></i>
+                        </a>
+                        <a class="rounded-3xl bg-primary dark:bg-secondary md:px-8 py-2.5 px-4 text-md font-medium text-light dark:text-dark flex items-center gap-1 transition ease-in-out delay-150 hover:shadow-small hover:shadow-primary dark:shadow-secondary hover:text-light dark:hover:text-dark hover:bg-primary-hover dark:hover:bg-secondary-hover duration-300"
+                            href="../../docs/documentation.html">
+                            Docs
+                            <i class="ri-article-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Button to toggle between dark and light mode -->
+                <div class="flex items-center gap-4 ms-4">
+                    <div class="flex sm:gap-4">
+                        <button onclick="toggleDarkMode()" class="p-2 text-primary dark:text-secondary">
+                            <i id="dark-mode-icon" class="ri-sun-line text-2xl"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- Mobile Menu Toggle Button -->
+
+                <div class="block xl:hidden">
+                    <button id="menu-button"
+                        class="rounded  p-2 text-dark dark:text-light transition hover:text-primary dark:hover:text-secondary"
+                        type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation"
+                        aria-controls="drawer-navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!--Mobile Menu -->
+                <div>
+                    <!-- drawer  -->
+                    <div id="drawer-navigation"
+                        class="fixed top-0 left-0 z-40 h-screen  p-4 overflow-y-auto transition-transform -translate-x-full bg-light w-64 dark:bg-dark"
+                        tabindex="-1" aria-labelledby="drawer-navigation-label">
+                        <h5 id="drawer-navigation-label"
+                            class="text-base font-semibold text-primary uppercase dark:text-secondary">
+                            MENU
+                        </h5>
+                        <!-- Close Button for Mobile Menu -->
+                        <button type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation"
+                            class="text-dark bg-transparent hover:bg-light hover:text-dark rounded-lg text-sm w-8 h-8 absolute top-2.5 end-2.5 inline-flex items-center justify-center dark:hover:bg-dark dark:hover:text-light">
+                            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 14 14">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                            </svg>
+                            <span class="sr-only">Close
+                                menu</span>
+                        </button>
+                        <div class="py-4 overflow-y-auto">
+                            <ul class="space-y-2 font-medium">
+
+
+                                <!--home-->
+                                <li>
+                                    <a class="flex items-center w-full p-2 text-base text-dark hover:text-light transition duration-75 rounded-lg group hover:bg-primary dark:text-light dark:hover:text-dark dark:hover:bg-secondary"
+                                        href="home.html">
+                                        <i
+                                            class="ri-home-2-fill text-primary dark:text-secondary group-hover:text-light dark:group-hover:text-dark"></i><span
+                                            class="ms-3">Home</span>
+                                    </a>
+                                </li>
+                                <!--about-->
+                                <li>
+                                    <a class="flex items-center w-full p-2 text-base text-dark hover:text-light transition duration-75 rounded-lg group hover:bg-primary dark:text-light dark:hover:text-dark dark:hover:bg-secondary"
+                                        href="about.html">
+                                        <i
+                                            class="ri-account-pin-box-line text-primary dark:text-secondary group-hover:text-light dark:group-hover:text-dark"></i><span
+                                            class="ms-3">About</span>
+                                    </a>
+                                </li>
+                                <!--services-->
+                                <li>
+                                    <a class="flex items-center w-full p-2 text-base text-dark hover:text-light transition duration-75 rounded-lg group hover:bg-primary dark:text-light dark:hover:text-dark dark:hover:bg-secondary"
+                                        href="services.html">
+                                        <i
+                                            class="ri-customer-service-2-fill text-primary dark:text-secondary group-hover:text-light dark:group-hover:text-dark"></i><span
+                                            class="ms-3">Services</span>
+                                    </a>
+                                </li>
+                                <!--portfolio-->
+                                <li>
+                                    <a class="flex items-center w-full p-2 text-base text-dark hover:text-light transition duration-75 rounded-lg group hover:bg-primary dark:text-light dark:hover:text-dark dark:hover:bg-secondary"
+                                        href="portfolio.html">
+                                        <i
+                                            class="ri-map-pin-user-fill text-primary dark:text-secondary group-hover:text-light dark:group-hover:text-dark"></i><span
+                                            class="ms-3">Portfolio</span>
+                                    </a>
+                                </li>
+                                <!--blog-->
+                                <li>
+                                    <a class="flex items-center w-full p-2 text-base text-dark hover:text-light transition duration-75 rounded-lg group hover:bg-primary dark:text-light dark:hover:text-dark dark:hover:bg-secondary"
+                                        href="blog.html">
+                                        <i
+                                            class="ri-news-fill text-primary dark:text-secondary group-hover:text-light dark:group-hover:text-dark"></i><span
+                                            class="ms-3">Blog</span>
+                                    </a>
+                                </li>
+                                <!--contact-->
+                                <li>
+                                    <a class="flex items-center w-full p-2 text-base text-dark hover:text-light transition duration-75 rounded-lg group hover:bg-primary dark:text-light dark:hover:text-dark dark:hover:bg-secondary"
+                                        href="contact.html">
+                                        <i
+                                            class="ri-phone-fill text-primary dark:text-secondary group-hover:text-light dark:group-hover:text-dark"></i><span
+                                            class="ms-3">Contact</span>
+                                    </a>
+                                </li>
+
+                                <hr class="mb-6">
+                                <!--donwload and docs link-->
+                                <li class="flex items-center gap-4  p-2">
+                                    <div class="block xl:hidden ">
+
+                                        <p class=" mb-6">
+                                            <a href="#"
+                                                class="inline-flex items-center font-medium text-primary dark:text-secondary  hover:underline">
+                                                Download
+                                                <i
+                                                    class="ri-arrow-down-line text-primary dark:text-secondary ms-3"></i>
+                                            </a>
+                                        </p>
+                                        <p class="mb-6">
+                                            <a href="../../docs/documentation.html"
+                                                class="inline-flex items-center font-medium text-primary dark:text-secondary hover:underline">
+                                                Docs
+                                                <i
+                                                    class="ri-article-fill text-primary dark:text-secondary ms-3"></i>
+                                            </a>
+                                        </p>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--end drawer-->
+                </div>
+                <!--end mobile menu-->
+            </div>
+        </div>
+        <!--scroll progress bar-->
+        <div id="scroll-progress" class="bg-primary dark:bg-secondary h-1 top-0 fixed left-0 z-50"></div>
+    </header>
      <!--end header-->
         <!--back to top button-->
         <button id="back-to-top"
@@ -843,100 +839,114 @@
    <footer class="shadow-extra-large shadow-primary dark:shadow-secondary">
     <!-- Container for footer content -->
     <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-      <div class="lg:grid lg:grid-cols-2">
-        <!-- Left section -->
-        <div class="py-8 lg:order-last lg:border-b-0 lg:border-s border-light dark:border-dark lg:py-16 lg:ps-16">
-          <!-- Logo (Mobile only) -->
-          <div class="mt-8 space-y-4 lg:mt-0">
-            <div class="block text-xl lg:text-2xl font-semibold radio-canada-regular lg:hidden">
-              <a href="/index.html" class="text-dark dark:text-light">
-                Visio<span class="text-primary dark:text-secondary">Nix</span>
-              </a>
-            </div>
-            <div>
-              <h2 class="text-2xl font-medium text-primary dark:text-secondary">
-                Discover <span class="text-dark dark:text-light">the Best Solutions</span>
-              </h2>
-              <p class="mt-4 max-w-lg text-dark dark:text-muted">
-                At Visionix, we are dedicated to delivering innovative and reliable solutions tailored to your needs. Contact us for more information or schedule a consultation to elevate your brand with cutting-edge technology.
-              </p>
-            </div>
-            
-          </div>
-        </div>
+        <div class="lg:grid lg:grid-cols-2">
+            <!-- Left section -->
+            <div
+                class="py-8 lg:order-last lg:border-b-0 lg:border-s border-light dark:border-dark lg:py-16 lg:ps-16">
+                <!-- Logo (Mobile only) -->
+                <div class="mt-8 space-y-4 lg:mt-0">
+                    <div class="block text-xl lg:text-2xl font-semibold radio-canada-regular lg:hidden">
+                        <a href="../../index.html" class="text-dark dark:text-light">
+                            Visio<span class="text-primary dark:text-secondary">Nix</span>
+                        </a>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-medium text-primary dark:text-secondary">
+                            Discover <span class="text-dark dark:text-light">the Best Solutions</span>
+                        </h2>
+                        <p class="mt-4 max-w-lg text-dark dark:text-muted">
+                            At Visionix, we are dedicated to delivering innovative and reliable solutions
+                            tailored to your needs. Contact us for more information or schedule a consultation
+                            to elevate your brand with cutting-edge technology.
+                        </p>
+                    </div>
 
-        <!-- Right section-->
-        <div class="py-8 lg:py-16 lg:pe-16">
-          <div class="hidden lg:text-3xl font-semibold radio-canada-regular lg:block">
-            <a href="/index.html" class="text-dark dark:text-light">
-              Visio<span class="text-primary dark:text-secondary">Nix</span>
-            </a>
-          </div>
-          <!-- Links section -->
-          <div class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3">
-          
-            <div>
-              <p class="font-medium text-primary dark:text-secondary">Legal & Press</p>
-              <ul class="mt-6 space-y-4 text-sm">
-                <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Privacy
-                    Policy</a></li>
-                <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Presskit</a>
-                </li>
-                <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Term &
-                    Conditions</a></li>
-              </ul>
+                </div>
             </div>
-            <!-- Company -->
-            <div>
-              <p class="font-medium text-primary dark:text-secondary">Company</p>
-              <ul class="mt-6 space-y-4 text-sm">
-                <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">About</a></li>
-                <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Services</a>
-                </li>
-                <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Portfolio</a>
-                </li>
-                <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Blog</a></li>
-                <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Contact</a>
-                </li>
-              </ul>
+
+            <!-- Right section-->
+            <div class="py-8 lg:py-16 lg:pe-16">
+                <div class="hidden lg:text-3xl font-semibold radio-canada-regular lg:block">
+                    <a href="../../index.html" class="text-dark dark:text-light">
+                        Visio<span class="text-primary dark:text-secondary">Nix</span>
+                    </a>
+                </div>
+                <!-- Links section -->
+                <div class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3">
+
+                    <div>
+                        <p class="font-medium text-primary dark:text-secondary">Legal & Press</p>
+                        <ul class="mt-6 space-y-4 text-sm">
+                            <li><a href="#"
+                                    class="text-dark dark:text-muted transition hover:opacity-75">Privacy
+                                    Policy</a></li>
+                            <li><a href="#"
+                                    class="text-dark dark:text-muted transition hover:opacity-75">Presskit</a>
+                            </li>
+                            <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Term &
+                                    Conditions</a></li>
+                        </ul>
+                    </div>
+                    <!-- Company -->
+                    <div>
+                        <p class="font-medium text-primary dark:text-secondary">Company</p>
+                        <ul class="mt-6 space-y-4 text-sm">
+                            <li><a href="#"
+                                    class="text-dark dark:text-muted transition hover:opacity-75">About</a></li>
+                            <li><a href="#"
+                                    class="text-dark dark:text-muted transition hover:opacity-75">Services</a>
+                            </li>
+                            <li><a href="#"
+                                    class="text-dark dark:text-muted transition hover:opacity-75">Portfolio</a>
+                            </li>
+                            <li><a href="#"
+                                    class="text-dark dark:text-muted transition hover:opacity-75">Blog</a></li>
+                            <li><a href="#"
+                                    class="text-dark dark:text-muted transition hover:opacity-75">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Helpful Links -->
+                    <div>
+                        <p class="font-medium text-primary dark:text-secondary">Helpful Links</p>
+                        <ul class="mt-6 space-y-4 text-sm">
+                            <li><a href="#"
+                                    class="text-dark dark:text-muted transition hover:opacity-75">Contact</a>
+                            </li>
+                            <li><a href="#"
+                                    class="text-dark dark:text-muted transition hover:opacity-75">Documentation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Footer bottom: Terms and copyright -->
+                <div class="mt-8 border-t border-light dark:border-dark pt-8">
+                    <ul class="flex flex-wrap gap-4 text-xs">
+                        <li><a href="#" class="text-darkmuted dark:text-light transition hover:opacity-75">Terms
+                                & Conditions</a></li>
+                        <li><a href="#"
+                                class="text-darkmuted dark:text-light transition hover:opacity-75">Privacy
+                                Policy</a></li>
+                        <li><a href="#"
+                                class="text-darkmuted dark:text-light transition hover:opacity-75">Cookies</a>
+                        </li>
+                    </ul>
+                    <p class="mt-8 text-xs text-darkmuted dark:text-light">&copy; 2024. Flowdev Teams. All
+                        rights reserved.</p>
+                </div>
             </div>
-            <!-- Helpful Links -->
-            <div>
-              <p class="font-medium text-primary dark:text-secondary">Helpful Links</p>
-              <ul class="mt-6 space-y-4 text-sm">
-                <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Contact</a>
-                </li>
-                <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Documentation</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- Footer bottom: Terms and copyright -->
-          <div class="mt-8 border-t border-light dark:border-dark pt-8">
-            <ul class="flex flex-wrap gap-4 text-xs">
-              <li><a href="#" class="text-darkmuted dark:text-light transition hover:opacity-75">Terms
-                  & Conditions</a></li>
-              <li><a href="#" class="text-darkmuted dark:text-light transition hover:opacity-75">Privacy
-                  Policy</a></li>
-              <li><a href="#" class="text-darkmuted dark:text-light transition hover:opacity-75">Cookies</a>
-              </li>
-            </ul>
-            <p class="mt-8 text-xs text-darkmuted dark:text-light">&copy; 2024. Flowdev Teams. All
-              rights reserved.</p>
-          </div>
         </div>
-      </div>
     </div>
-  </footer>
+</footer>
   <!-- End Footer -->
     </main>
-    <!--main custom js-->
-    <script src="/build/js/main.js"></script>
+     <!--main custom js-->
+     <script src="../../js/main.js"></script>
 
-    <!--flowbite js-->
-    <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
-    <!--aos js-->
-    <script src="/node_modules/aos/dist/aos.js"></script>
+     <!--flowbite js-->
+     <script src="../../flowbite/dist/flowbite.min.js"></script>
+     <!--aos js-->
+     <script src="../../aos/dist/aos.js"></script>
   
 
 

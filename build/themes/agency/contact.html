@@ -6,16 +6,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--tailwind css-->
-    <link href="/build/css/output.css" rel="stylesheet">
+    <link href="../../css/output.css" rel="stylesheet">
     <!--main custom css-->
-    <link href="/build/css/main.css" rel="stylesheet">
+    <link href="../../css/main.css" rel="stylesheet">
    
     <!--remix icon css-->
-    <link href="/build/icons/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link href="../../icons/remixicon/fonts/remixicon.css" rel="stylesheet">
     <!--flowbite css-->
-    <link href="/node_modules/flowbite/dist/flowbite.min.css" rel="stylesheet">
+    <link href="../../flowbite/dist/flowbite.min.css" rel="stylesheet">
     <!--aos css-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="../../aos/dist/aos.css" rel="stylesheet">
+
 
 
 </head>
@@ -56,7 +57,7 @@
         <div class="mx-auto  px-6 lg:px-8">
             <div class="flex h-16 items-center justify-between max-w-screen-xl mx-auto">
                 <div class="relative">
-                    <a href="/build/index.html"
+                    <a href="../../index.html"
                         class=" text-dark dark:text-light md:text-4xl text-2xl font-semibold radio-canada-regular">Visio<span
                             class="text-primary dark:text-secondary">Nix</span></a>
                 </div>
@@ -106,7 +107,7 @@
                             <i class="ri-arrow-down-line"></i>
                         </a>
                         <a class="rounded-3xl bg-primary dark:bg-secondary md:px-8 py-2.5 px-4 text-md font-medium text-light dark:text-dark flex items-center gap-1 transition ease-in-out delay-150 hover:shadow-small hover:shadow-primary dark:shadow-secondary hover:text-light dark:hover:text-dark hover:bg-primary-hover dark:hover:bg-secondary-hover duration-300"
-                            href="/build/docs/documentation.html">
+                            href="../../docs/documentation.html">
                             Docs
                             <i class="ri-article-fill"></i>
                         </a>
@@ -228,7 +229,7 @@
                                             </a>
                                         </p>
                                         <p class="mb-6">
-                                            <a href="/build/docs/documentation.html"
+                                            <a href="../../docs/documentation.html"
                                                 class="inline-flex items-center font-medium text-primary dark:text-secondary hover:underline">
                                                 Docs
                                                 <i
@@ -409,102 +410,116 @@
         <!--end cta section-->
 
       <!-- Footer -->
-    <footer class="shadow-extra-large shadow-primary dark:shadow-secondary">
+      <footer class="shadow-extra-large shadow-primary dark:shadow-secondary">
         <!-- Container for footer content -->
         <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-          <div class="lg:grid lg:grid-cols-2">
-            <!-- Left section -->
-            <div class="py-8 lg:order-last lg:border-b-0 lg:border-s border-light dark:border-dark lg:py-16 lg:ps-16">
-              <!-- Logo (Mobile only) -->
-              <div class="mt-8 space-y-4 lg:mt-0">
-                <div class="block text-xl lg:text-2xl font-semibold radio-canada-regular lg:hidden">
-                  <a href="/index.html" class="text-dark dark:text-light">
-                    Visio<span class="text-primary dark:text-secondary">Nix</span>
-                  </a>
+            <div class="lg:grid lg:grid-cols-2">
+                <!-- Left section -->
+                <div
+                    class="py-8 lg:order-last lg:border-b-0 lg:border-s border-light dark:border-dark lg:py-16 lg:ps-16">
+                    <!-- Logo (Mobile only) -->
+                    <div class="mt-8 space-y-4 lg:mt-0">
+                        <div class="block text-xl lg:text-2xl font-semibold radio-canada-regular lg:hidden">
+                            <a href="../../index.html" class="text-dark dark:text-light">
+                                Visio<span class="text-primary dark:text-secondary">Nix</span>
+                            </a>
+                        </div>
+                        <div>
+                            <h2 class="text-2xl font-medium text-primary dark:text-secondary">
+                                Discover <span class="text-dark dark:text-light">the Best Solutions</span>
+                            </h2>
+                            <p class="mt-4 max-w-lg text-dark dark:text-muted">
+                                At Visionix, we are dedicated to delivering innovative and reliable solutions
+                                tailored to your needs. Contact us for more information or schedule a consultation
+                                to elevate your brand with cutting-edge technology.
+                            </p>
+                        </div>
+
+                    </div>
                 </div>
-                <div>
-                  <h2 class="text-2xl font-medium text-primary dark:text-secondary">
-                    Discover <span class="text-dark dark:text-light">the Best Solutions</span>
-                  </h2>
-                  <p class="mt-4 max-w-lg text-dark dark:text-muted">
-                    At Visionix, we are dedicated to delivering innovative and reliable solutions tailored to your needs. Contact us for more information or schedule a consultation to elevate your brand with cutting-edge technology.
-                  </p>
+
+                <!-- Right section-->
+                <div class="py-8 lg:py-16 lg:pe-16">
+                    <div class="hidden lg:text-3xl font-semibold radio-canada-regular lg:block">
+                        <a href="../../index.html" class="text-dark dark:text-light">
+                            Visio<span class="text-primary dark:text-secondary">Nix</span>
+                        </a>
+                    </div>
+                    <!-- Links section -->
+                    <div class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3">
+
+                        <div>
+                            <p class="font-medium text-primary dark:text-secondary">Legal & Press</p>
+                            <ul class="mt-6 space-y-4 text-sm">
+                                <li><a href="#"
+                                        class="text-dark dark:text-muted transition hover:opacity-75">Privacy
+                                        Policy</a></li>
+                                <li><a href="#"
+                                        class="text-dark dark:text-muted transition hover:opacity-75">Presskit</a>
+                                </li>
+                                <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Term &
+                                        Conditions</a></li>
+                            </ul>
+                        </div>
+                        <!-- Company -->
+                        <div>
+                            <p class="font-medium text-primary dark:text-secondary">Company</p>
+                            <ul class="mt-6 space-y-4 text-sm">
+                                <li><a href="#"
+                                        class="text-dark dark:text-muted transition hover:opacity-75">About</a></li>
+                                <li><a href="#"
+                                        class="text-dark dark:text-muted transition hover:opacity-75">Services</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-dark dark:text-muted transition hover:opacity-75">Portfolio</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-dark dark:text-muted transition hover:opacity-75">Blog</a></li>
+                                <li><a href="#"
+                                        class="text-dark dark:text-muted transition hover:opacity-75">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Helpful Links -->
+                        <div>
+                            <p class="font-medium text-primary dark:text-secondary">Helpful Links</p>
+                            <ul class="mt-6 space-y-4 text-sm">
+                                <li><a href="#"
+                                        class="text-dark dark:text-muted transition hover:opacity-75">Contact</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-dark dark:text-muted transition hover:opacity-75">Documentation</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Footer bottom: Terms and copyright -->
+                    <div class="mt-8 border-t border-light dark:border-dark pt-8">
+                        <ul class="flex flex-wrap gap-4 text-xs">
+                            <li><a href="#" class="text-darkmuted dark:text-light transition hover:opacity-75">Terms
+                                    & Conditions</a></li>
+                            <li><a href="#"
+                                    class="text-darkmuted dark:text-light transition hover:opacity-75">Privacy
+                                    Policy</a></li>
+                            <li><a href="#"
+                                    class="text-darkmuted dark:text-light transition hover:opacity-75">Cookies</a>
+                            </li>
+                        </ul>
+                        <p class="mt-8 text-xs text-darkmuted dark:text-light">&copy; 2024. Flowdev Teams. All
+                            rights reserved.</p>
+                    </div>
                 </div>
-                
-              </div>
             </div>
-  
-            <!-- Right section-->
-            <div class="py-8 lg:py-16 lg:pe-16">
-              <div class="hidden lg:text-3xl font-semibold radio-canada-regular lg:block">
-                <a href="/index.html" class="text-dark dark:text-light">
-                  Visio<span class="text-primary dark:text-secondary">Nix</span>
-                </a>
-              </div>
-              <!-- Links section -->
-              <div class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3">
-              
-                <div>
-                  <p class="font-medium text-primary dark:text-secondary">Legal & Press</p>
-                  <ul class="mt-6 space-y-4 text-sm">
-                    <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Privacy
-                        Policy</a></li>
-                    <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Presskit</a>
-                    </li>
-                    <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Term &
-                        Conditions</a></li>
-                  </ul>
-                </div>
-                <!-- Company -->
-                <div>
-                  <p class="font-medium text-primary dark:text-secondary">Company</p>
-                  <ul class="mt-6 space-y-4 text-sm">
-                    <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">About</a></li>
-                    <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Services</a>
-                    </li>
-                    <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Portfolio</a>
-                    </li>
-                    <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Blog</a></li>
-                    <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-                <!-- Helpful Links -->
-                <div>
-                  <p class="font-medium text-primary dark:text-secondary">Helpful Links</p>
-                  <ul class="mt-6 space-y-4 text-sm">
-                    <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Contact</a>
-                    </li>
-                    <li><a href="#" class="text-dark dark:text-muted transition hover:opacity-75">Documentation</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <!-- Footer bottom: Terms and copyright -->
-              <div class="mt-8 border-t border-light dark:border-dark pt-8">
-                <ul class="flex flex-wrap gap-4 text-xs">
-                  <li><a href="#" class="text-darkmuted dark:text-light transition hover:opacity-75">Terms
-                      & Conditions</a></li>
-                  <li><a href="#" class="text-darkmuted dark:text-light transition hover:opacity-75">Privacy
-                      Policy</a></li>
-                  <li><a href="#" class="text-darkmuted dark:text-light transition hover:opacity-75">Cookies</a>
-                  </li>
-                </ul>
-                <p class="mt-8 text-xs text-darkmuted dark:text-light">&copy; 2024. Flowdev Teams. All
-                  rights reserved.</p>
-              </div>
-            </div>
-          </div>
         </div>
-      </footer>
+    </footer>
       <!-- End Footer -->
     </main>
-    <!--main custom js-->
-    <script src="/build/js/main.js"></script>
-    <!--flowbite js-->
-    <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
-    <!--aos js-->
-    <script src="/node_modules/aos/dist/aos.js"></script>
+     <!--main custom js-->
+     <script src="../../js/main.js"></script>
+     <!--flowbite js-->
+     <script src="../../flowbite/dist/flowbite.min.js"></script>
+     <!--aos js-->
+     <script src="../../aos/dist/aos.js"></script>
 
 
     <script>
