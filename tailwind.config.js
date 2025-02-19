@@ -1,10 +1,4 @@
-/** 
- * Tailwind CSS Configuration File
- * ==================================
- * This file defines the custom Tailwind CSS setup for the template. 
- * It includes theme extensions, dark mode support, and plugin integrations.
- * Use the comments below to understand each section and how to customize it.
- */
+
 
 module.exports = {
   // Enable dark mode with 
@@ -14,9 +8,8 @@ module.exports = {
   // This ensures unused CSS is purged during production builds for optimal performance.
   content: [
     "./build/**/*.{html,js}", // Include all HTML and JS files in the assets folder
-   
     "./build/themes/**/*.{html,js}", // All HTML and JS files in the themes folder
-    "./node_modules/flowbite/**/*.js", // Include Flowbite components
+  
   ],
 
   theme: {
